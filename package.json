@@ -1,10 +1,15 @@
 {
   "name": "neon-void-red-night",
-  "displayName": "neon-void-red-night",
+  "displayName": "Neon Void Red Night",
   "description": "A neon-red dark theme inspired by Konsole and Firefox setup",
-  "version": "0.0.1",
+  "publisher": "akashramesh13",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akashramesh13/neon-void-red-night"
+  },
+  "version": "0.0.3",
   "engines": {
-    "vscode": "^1.107.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Themes"
@@ -12,7 +17,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "neon-void-red-night",
+        "label": "Neon Void Red Night",
         "uiTheme": "vs-dark",
         "path": "./themes/neon-void-red-night-color-theme.json"
       }
